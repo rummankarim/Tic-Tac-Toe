@@ -1,15 +1,16 @@
 td {
-	border: 2px solid #444;
+	border: 20px solid red;
 	height: 200px;
 	width: 200px;
+
 }
 
 table {
 	border-collapse: collapse;
 	position: absolute;
-	left: 50%;
+	left: 40%;
 	margin-left:-155px;
-	top:50px;
+	bottom: 40px;
 }
 
 table tr:first-child td {
@@ -40,7 +41,35 @@ table tr td:last-child {
 	padding-bottom: 50px;
 	text-align: center;
 	border-radius: 5px;
-	color: white;
+	color: red;
 
 
+}
+table tr td {
+	font-size: 100px;
+	text-align: center;
+}
+
+body {
+	background-color: pink;
+}
+
+h1 {
+	text-align: center;
+	font-size: 32px;
+
+}
+
+p {
+	text-align: center;
+	font-size: 24px;
+}
+
+button {
+	border-radius: 5px;
+	border-color: red;
+	text-align: center;
+	font-size: 32px;
+	right: 50%;
+	margin-right: -100px;
 }

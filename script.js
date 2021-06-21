@@ -120,8 +120,3 @@ function checkTie() { //If the game would be a Tie the background colors of all 
 
 
 
-
-
-
-
-
